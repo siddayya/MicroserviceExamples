@@ -1,4 +1,4 @@
-package com.mphasis.eureka.poc;
+package com.dev.eureka.poc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
