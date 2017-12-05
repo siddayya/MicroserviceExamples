@@ -7,9 +7,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 @EnableCircuitBreaker
-@RibbonClient("order")
+//@RibbonClient("order")
 public class MicroserviceOrderApplication {
 
 	public static void main(String[] args) {
