@@ -1,0 +1,17 @@
+server:
+  port: 8761
+
+eureka:
+  client:
+     registerWithEureka : false
+     fetchRegistry: false
+  instance:
+    hostname: localhost
+   
+spring:
+  cloud: 
+      config:
+        name: discovery
+        
+    
+    
