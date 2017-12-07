@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: StandaloneConfigServer
+    
+server:
+  port: 8888

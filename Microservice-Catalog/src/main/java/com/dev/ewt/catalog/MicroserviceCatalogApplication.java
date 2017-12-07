@@ -11,7 +11,7 @@ import com.dev.ewt.catalog.entity.Item;
 import com.dev.ewt.catalog.repository.ItemRepository;
 
 @SpringBootApplication
-@EnableDiscoveryClient
+//@EnableDiscoveryClient
 public class MicroserviceCatalogApplication {
 
 	private final ItemRepository itemRepository;
