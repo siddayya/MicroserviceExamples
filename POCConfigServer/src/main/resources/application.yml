@@ -6,4 +6,6 @@ spring:
           uri: https://github.com/siddayya/configproperties/
           username: XXXXXX
           password: XXXXXX
-       
+
+
+

@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configclient
+  cloud:
+    config:
+      uri: http://localhost:8889
+      fail-fast: true
+      #serviceId : StandaloneConfigServer
+      #uri: 
+      #retry:
+      #  max-attempts: 10000
+      #  max-interval: 1000
+      #enabled: true
+    
+management:
+  security:
+    enabled: false
